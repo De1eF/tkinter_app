@@ -2,8 +2,6 @@ import tkinter
 import webbrowser
 import time
 import threading
-import os
-import sys
 
 from tkinter import *
 
@@ -15,8 +13,6 @@ def openUrl():
     
 
 def countdown(t, onStartCallback, onEndCallback, eachSecondCallback): 
-
-    
     def delayCallback(t):
         onStartCallback()
         
